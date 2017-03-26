@@ -8,7 +8,7 @@ int main() {
   cin >> n;
   while(n--){
       cin >> s;
-      cout << ((s == "Pistoleiro")? "Y" : "N") << endl;
+      cout << ((s != "Batman")? "Y" : "N") << endl;
   }
 
     return 0;
